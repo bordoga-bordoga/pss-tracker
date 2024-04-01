@@ -1,0 +1,32 @@
+.quarter-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    border-radius: 5vh;
+    color: white;
+    background-color: hsl(120, 70%, 60%)
+}
+.checkpoint-title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 60px;
+    border-radius: 6vh;
+    margin-left: 45px;
+    margin-top: 30px;
+    background-color: blueviolet;
+}
+.checkpoint {
+    padding: 2%;
+    padding-left: 5%;
+    padding-top: 6%;
+    margin-top: 60px;
+    margin-right: 20px;
+    border-radius: 4vh;
+    margin-left: 20px;
+    background-color: gray;
+}

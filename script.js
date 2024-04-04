@@ -36,4 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 */
 
+document.addEventListener("DOMContentLoaded", function() {
+  var element = document.getElementById('quarter-2');
+  var elementWidth = element.offsetWidth;
+  console.log('Width of the element is: ' + elementWidth + 'px');
+});
 
